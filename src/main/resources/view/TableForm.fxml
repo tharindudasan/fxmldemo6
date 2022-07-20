@@ -27,8 +27,8 @@
             <TextField fx:id="txtAddress" promptText="Ex: Panadura" />
          </children>
       </VBox>
-      <Button fx:id="btnSave" layoutX="191.0" layoutY="79.0" mnemonicParsing="false" style="-fx-background-color: lightblue;" text="Save Customer" textFill="WHITE" />
-      <Button fx:id="btnNewCustomer" layoutX="191.0" layoutY="43.0" mnemonicParsing="false" style="-fx-background-color: green;" text="New Customer" textFill="WHITE" />
-      <Button fx:id="btnDeleteCustomer" layoutX="314.0" layoutY="79.0" mnemonicParsing="false" style="-fx-background-color: EB3309;" text="Delete Customer" textFill="WHITE" />
+      <Button fx:id="btnSave" layoutX="191.0" layoutY="79.0" mnemonicParsing="false" onAction="#btnSave_OnAction" style="-fx-background-color: lightblue;" text="Save Customer" textFill="WHITE" />
+      <Button fx:id="btnNewCustomer" layoutX="191.0" layoutY="43.0" mnemonicParsing="false" onAction="#btnNewCustomer_OnACtion" style="-fx-background-color: green;" text="New Customer" textFill="WHITE" />
+      <Button fx:id="btnDeleteCustomer" layoutX="314.0" layoutY="79.0" mnemonicParsing="false" onAction="#btnDeleteCustomer_OnAction" style="-fx-background-color: EB3309;" text="Delete Customer" textFill="WHITE" />
    </children>
 </AnchorPane>
